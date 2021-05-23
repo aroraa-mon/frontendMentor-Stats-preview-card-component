@@ -97,16 +97,22 @@ p {
     
 }
 
-@media screen and (max-width: 992px) {
-
+@media screen and (max-width: 1030px) {
+    body {
+        padding: 10vh 0;
+    }
+    .stats {
+        flex-wrap: wrap;
+    }
+    .stats div{
+        padding-right: 10px;
+    }
+    .stats div:first-child {
+        margin-bottom: 8%;
+    }
 }
 
-@media screen and (max-width: 992px) {
-
-    body {
-        margin: 5vh 0;
-    }
-
+@media screen and (max-width: 774px){
     .inner_container {
         flex-direction: column-reverse;
         width: 90%;
