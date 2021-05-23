@@ -74,7 +74,7 @@ p {
 }
 
 .stats h2 {
-    color: var(--white-light2);
+    color: var(--white);
     font-family: 'Inter', sans-serif;
     margin-bottom: 10px;
 }
